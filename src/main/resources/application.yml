@@ -9,3 +9,12 @@ spring:
         jwt:
           issuer-uri: ${KEYCLOAK_ISSUER_URI:http://localhost:8080/realms/myrealm}
           jwk-set-uri: ${KEYCLOAK_JWK_SET_URI:http://localhost:8080/realms/myrealm/protocol/openid-connect/certs}
+
+
+keycloak:
+  auth-server-url: ${KEYCLOAK_URL:http://localhost:8080}
+  realm: ${KEYCLOAK_REALM:master}
+  resource: ${KEYCLOAK_CLIENT_ID:admin-cli}
+  admin:
+    username: ${KEYCLOAK_ADMIN_USERNAME:admin}
+    password: ${KEYCLOAK_ADMIN_PASSWORD:admin}

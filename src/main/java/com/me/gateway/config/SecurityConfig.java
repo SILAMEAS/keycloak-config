@@ -1,6 +1,7 @@
-package com.me.gateway;
+package com.me.gateway.config;
 
 // SecurityConfig.java
+import com.me.gateway.keycloak.KeycloakJwtAuthenticationConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;

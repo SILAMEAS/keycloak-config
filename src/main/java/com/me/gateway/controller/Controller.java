@@ -1,4 +1,4 @@
-package com.me.gateway;
+package com.me.gateway.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/v1/public")
-public class ControllerPublic {
+public class Controller {
 
     @GetMapping
     public String publicMethod() {
