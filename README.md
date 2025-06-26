@@ -1,1 +1,3 @@
 # keycloak-config
+
+.env
