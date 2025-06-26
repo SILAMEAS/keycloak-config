@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: keycloak
+    env: docker
+    plan: free
+    region: singapore
+    autoDeploy: true
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: KC_DB
+        value: mysql
+      - key: KC_DB_URL_HOST
+        value: mysql-abc123.render.com   # ✅ Replace with your actual host
+      - key: KC_DB_URL_PORT
+        value: 3306
+      - key: KC_DB_URL_DATABASE
+        value: keycloak
+      - key: KC_DB_USERNAME
+        value: keycloak
+      - key: KC_DB_PASSWORD
+        value: yourpassword
+      - key: KEYCLOAK_ADMIN
+        value: admin
+      - key: KEYCLOAK_ADMIN_PASSWORD
+        value: admin

@@ -1,4 +1,4 @@
-package com.me.gateway.keycloak;
+package com.la.keycloak.keycloak;
 
 
 import lombok.AllArgsConstructor;

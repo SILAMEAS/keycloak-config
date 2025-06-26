@@ -1,7 +1,7 @@
-package com.me.gateway.controller;
+package com.la.keycloak.controller;
 
-import com.me.gateway.dto.UserRegistrationDto;
-import com.me.gateway.service.KeycloakService;
+import com.la.keycloak.dto.UserRegistrationDto;
+import com.la.keycloak.service.KeycloakService;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.core.Response;
 import lombok.RequiredArgsConstructor;

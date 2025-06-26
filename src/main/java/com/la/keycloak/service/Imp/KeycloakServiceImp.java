@@ -1,8 +1,8 @@
-package com.me.gateway.service.impl;
+package com.la.keycloak.service.Imp;
 
-import com.me.gateway.dto.UserRegistrationDto;
-import com.me.gateway.keycloak.KeycloakPropertie;
-import com.me.gateway.service.KeycloakService;
+import com.la.keycloak.dto.UserRegistrationDto;
+import com.la.keycloak.keycloak.KeycloakPropertie;
+import com.la.keycloak.service.KeycloakService;
 import jakarta.ws.rs.core.Response;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

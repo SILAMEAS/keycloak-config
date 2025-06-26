@@ -1,6 +1,6 @@
-package com.me.gateway.service;
+package com.la.keycloak.service;
 
-import com.me.gateway.dto.UserRegistrationDto;
+import com.la.keycloak.dto.UserRegistrationDto;
 import jakarta.ws.rs.core.Response;
 import org.keycloak.representations.idm.UserRepresentation;
 

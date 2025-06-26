@@ -1,4 +1,4 @@
-package com.me.gateway.keycloak;
+package com.la.keycloak.keycloak;
 
 import org.keycloak.OAuth2Constants;
 import org.keycloak.admin.client.Keycloak;

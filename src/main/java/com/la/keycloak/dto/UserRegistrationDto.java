@@ -1,4 +1,4 @@
-package com.me.gateway.dto;
+package com.la.keycloak.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
